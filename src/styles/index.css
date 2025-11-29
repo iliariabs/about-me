@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html.lenis, html.lenis body {
+    height: auto;
+  }
+  
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+  
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+  
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+  
+  .lenis.lenis-scrolling iframe {
+    pointer-events: none;
+  }
+  .chromatic-red {
+    background-color: #ff0040;
+    opacity: 0;
+    mix-blend-mode: screen;
+    pointer-events: none;
+    border-radius: 24px;
+  }
+
+  .chromatic-red img {
+    mix-blend-mode: multiply;
+    opacity: 1;
+  }
+
+  
+  .chromatic-green {
+    background-color: #00ff9d;
+    opacity: 0;
+    mix-blend-mode: screen;
+    pointer-events: none;
+    border-radius: 24px;
+  }
+
+  .chromatic-green img {
+    mix-blend-mode: multiply;
+    opacity: 1;
+  }
+}
+
+body {
+  @apply bg-black text-green-400 font-mono transition-all duration-500;
+  overflow-x: hidden;
+}
