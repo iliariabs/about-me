@@ -85,7 +85,7 @@ export const CarouselSlideView: React.FC<Props> = ({ title, items, gap = 150 }) 
   return (
     <section
       ref={containerRef as any}
-      className="relative w-full bg-black"
+      className="relative w-full bg-black z-10"
       data-slide="sticky-carousel"
       style={{ height: sectionHeight }}
     >

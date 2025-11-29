@@ -9,11 +9,11 @@ export const projects = [
     image: raylibBlackjackImg,
     link: "https://github.com/iliariabs/Raylib-Blackjack"
   },
-  {
+  { 
     id: 2,
     title: "About Me",
     category: "Landing Page",
     image: aboutMeImg,
-    link: ""
+    link: "https://iliariabs.github.io/about-me/"
   }
 ];
