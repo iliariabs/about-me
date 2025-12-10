@@ -37,8 +37,8 @@ export const slideData: SlideConfig[] = [
     title: 'Philosophy',
     subtitle: "I'm something of a scientist myself.",
     description: [
-      'Following SOLID principles and clean-code practices allows me to create systems that are predictable, scalable, and easy to evolve.',
       'For me, engineering and design go hand in hand: clean structure under the hood, clean aesthetics on the surface.',
+      'I am creating systems that are predictable, scalable, and easy to evolve.',
     ],
     imageUrl: greengoblin,
     imageLeft: true,
