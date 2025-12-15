@@ -9,27 +9,27 @@ export const projects = [
     title: "Sofia Bus & Trams Map",
     category: "Interactive Map",
     image: sofiatrafficmapImg,
-    link: "https://iliariabs.github.io/sofia-traffic-map/"
+    link: "https://iamfcool.github.io/sofia-traffic-map/"
   },
   {
     id: 2,
     title: "Online Client-Side Interpreter",
     category: "WASM & Frontend",
     image: onlineinterpreterImg,
-    link: "https://iliariabs.github.io/client-scripts-online/"
+    link: "https://iamfcool.github.io/client-scripts-online/"
   },
   {
     id: 3,
     title: "Raylib BlackJack",
     category: "Low-level & Graphics",
     image: raylibBlackjackImg,
-    link: "https://github.com/iliariabs/Raylib-Blackjack"
+    link: "https://github.com/iamfcool/Raylib-Blackjack"
   },
   { 
     id: 3,
     title: "About Me",
     category: "Landing Page",
     image: aboutMeImg,
-    link: "https://iliariabs.github.io/about-me/"
+    link: "https://iamfcool.github.io/about-me/"
   }
 ];
